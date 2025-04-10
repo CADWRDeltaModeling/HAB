@@ -1,0 +1,26 @@
+name: HabsEnv_2025
+channels:
+  - conda-forge 
+  - defaults
+dependencies:
+  - python=3.9
+  - conda           
+  - conda-build     
+  - jupyter
+  - notebook
+  - pandas
+  - numpy
+  - matplotlib=3.4
+  - seaborn=0.11.2
+  - scikit-learn=1.5.0
+  - statsmodels
+  - lightgbm
+  - xgboost=2.0.3
+  - jupyter_bokeh
+  - panel
+  - holoviews
+  - hvplot
+
+  - pip
+  - pip:
+      - tensorflow==2.16.1
